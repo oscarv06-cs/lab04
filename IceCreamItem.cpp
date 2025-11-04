@@ -1,12 +1,7 @@
 #include "IceCreamItem.h"
-#include <string>
 
-IceCreamItem::IceCreamItem(std::string size): size(size) price(0.0){}
+IceCreamItem::IceCreamItem(std::string size) : price(0.0), size(size) {}
 
-IceCreamItem:~IceCreamItem(){}
-
-double IceCreamItem::getPrice()const {
+double IceCreamItem::getPrice() {
     return price;
-}
-
-//IceCreamItem.cpp DONE (until further notice)
+}//DONE WITH THIS ONE

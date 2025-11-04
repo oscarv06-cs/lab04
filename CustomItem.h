@@ -8,7 +8,8 @@ class CustomItem:public IceCreamItem{
 public:
     explicit CustomItem(std::string size);
     virtual ~CustomItem() = default;
-    std::string composeItem() const override;
+    std::string composeItem() override;
+    double getPrice() override;
     void addTopping(const std::string& topping);
     
 };
